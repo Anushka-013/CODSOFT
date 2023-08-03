@@ -4,7 +4,7 @@ body {
 
 #header {
   padding: 0;
-  background-image: url("../images/hero.png");
+  background-image: url("hero.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -162,7 +162,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/reviews-bg.jpg");
+  background-image: url("reviews-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -209,52 +209,52 @@ body {
         font-style: italic;
         margin: 0; }
     #cuisines .container .american {
-      background-image: url("../images/american.png");
+      background-image: url("american.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center; }
     #cuisines .container .chinese {
-      background-image: url("../images/chinese.png");
+      background-image: url("chinese.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center; }
     #cuisines .container .french {
-      background-image: url("../images/french.png");
+      background-image: url("french.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center; }
     #cuisines .container .indian {
-      background-image: url("../images/indian.png");
+      background-image: url("indian.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center; }
     #cuisines .container .italian {
-      background-image: url("../images/italian.png");
+      background-image: url("italian.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center; }
     #cuisines .container .mexican {
-      background-image: url("../images/mexican.png");
+      background-image: url("mexican.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center; }
     #cuisines .container .pizza {
-      background-image: url("../images/pizza.png");
+      background-image: url("pizza.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center; }
     #cuisines .container .seafood {
-      background-image: url("../images/seafood.png");
+      background-image: url("seafood.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center; }
     #cuisines .container .steak {
-      background-image: url("../images/steak.png");
+      background-image: url("steak.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center; }
     #cuisines .container .sushi {
-      background-image: url("../images/sushi.png");
+      background-image: url("sushi.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center; }
@@ -294,4 +294,3 @@ body {
         #statistics .stat-data h3 span {
           font-size: 13px; } }
 
-/*# sourceMappingURL=style.css.map */

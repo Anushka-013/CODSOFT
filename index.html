@@ -1,89 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anushka Tomar - Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Food Recipe Search">
+  
+
+  <title>Foodie | Search for popular recipes</title>
+
+  <!--Google Fonts-->
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+  <!--CSS-->
+  <link href="style.css" rel="stylesheet">
+
 </head>
-
 <body>
-  <!-- Header Section -->
-  <header>
-    <h1>Anushka Tomar</h1>
 
-    <p>Web Developer | Designer | Tech Enthusiast</p>
-  </header>
-
-  <!-- About Section -->
-  <section id="about">
+  <header id="header">
     <div class="container">
-      <img src="C:\Users\anush\OneDrive\Documents\certificates\pic.jpg" alt="Anushka Tomar">
-      
-      <p>Hello, I'm Anushka Tomar. As a passionate and driven web developer, I strive to create captivating and user-centric digital experiences. Armed with a solid foundation in coding languages such as HTML, CSS, and JavaScript, I continuously explore the latest trends and technologies to stay at the forefront. I am committed to crafting innovative and functional websites that leave a lasting impression. My goal is to contribute my skills and creativity to projects that make a positive impact, while constantly refining and expanding my abilities.</p>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills">
+      <div class="top-header">
+        <nav class="main-nav" role="navigation">
+          <ul>
+            <li><a href="#">log in</a></li>
+            <li><a href="#">sign up</a></li>
+          </ul>
+        </nav>
+      </div> <!-- top-header -->
+      <section class="branding">
+        <h1>Find your Favorite <span>Recipes</span></h1>
+        <button class="btn-cta">Get Started</button>
+        <p>or send us your own recipe and get <a href="#">rewarded!</a></p>
+      </section> <!-- branding -->
+    </div><!--  container -->
+  </header> <!-- header -->
+  <section id="features">
     <div class="container">
-      
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Responsive Web Design</li>
-        <li>UI/UX Design</li>
-      </ul>
+      <article class="feature">
+        <figure class="fig-image">
+          <img src="burger@2x.png" alt="Burger Icon">
+        </figure>
+        <figcaption class="fig-body">
+          <h2>GET INSPIRED</h2>
+          <p>Varieties of recipes across different Global cuisines available</p>
+        </figcaption> <!-- fig body -->
+      </article> <!-- feature -->
+      <article class="feature">
+        <figure class="fig-image">
+          <img src="money@2x.png" alt="Money Icon">
+        </figure>
+        <figcaption class="fig-body">
+          <h2>GET REWARDED</h2>
+          <p>Rewards for sending us your own recipe to showcase to the world</p>
+        </figcaption> <!-- fig body -->
+      </article> <!-- feature -->
+      <article class="feature">
+        <figure class="fig-image">
+          <img src="chef@2x.png" alt="Chef Icon">
+        </figure>
+        <figcaption class="fig-body">
+          <h2>GET SOCIAL</h2>
+          <p>Share a post and tag us on Social Media when your find your recipe here</p>
+        </figcaption> <!-- fig body -->
+      </article> <!-- feature -->
+    </div> <!-- container -->
+  </section> <!-- features -->
+  
+  <section id="reviews">
+    <blockquote class="quote">
+      <q>I am so happy because I found this recipe, and it just made my life easier.Thanks so much for sharing!</q>
+      <footer>- Michael Clarke, Paris -</footer>
+    </blockquote>
+  </section> <!-- reviews -->
+  <section id="cuisines">
+      <h2>Brow<span>se By Cui</span>sine</h2>
+      <div class="container">
+        <div class="italian cuisine">
+          <p> 20 Recipes</p>
+          <h3>italian</h3>
+        </div>
+        <div class="indian cuisine">
+          <p> 20 Recipes</p>
+          <h3>indian</h3>
+        </div>
+        <div class="french cuisine">
+          <p> 20 Recipes</p>
+          <h3>french</h3>
+        </div>
+        <div class="steak cuisine">
+          <p> 20 Recipes</p>
+          <h3>steakhouse</h3>
+        </div>
+        <div class="seafood cuisine">
+          <p> 20 Recipes</p>
+          <h3>seafood</h3>
+        </div>
+        <div class="sushi cuisine">
+          <p> 20 Recipes</p>
+          <h3>sushi</h3>
+        </div>
+        <div class="mexican cuisine">
+          <p> 20 Recipes</p>
+          <h3>mexican</h3>
+        </div>
+        <div class="chinese cuisine">
+          <p> 20 Recipes</p>
+          <h3>chinese</h3>
+        </div>
+        <div class="pizza cuisine">
+          <p> 20 Recipes</p>
+          <h3>pizza</h3>
+        </div>
+        <div class="american cuisine">
+          <p> 20 Recipes</p>
+          <h3>american</h3>
+        </div>
+      </div> <!-- container -->
+  </section> <!-- cuisines -->
+  <section id="statistics">
+    <div class="stat-data">
+      <h3>23,567 <span>Recipes Available</span></h3>
     </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects">
+    <div class="stat-data">
+      <h3>432,856 <span>Active Users</span></h3>
+    </div>
+    <div class="stat-data">
+      <h3>892,173 <span>Positive Reviews</span></h3>
+    </div>
+    <div class="stat-data">
+      <h3>56,581 <span>Photos &#38; Videos</span></h3>
+    </div>
+    <div class="stat-data">
+      <h3>3,182 <span>Spices &#38; Herbs</span></h3>
+    </div>
+  </section> <!-- statistics -->
+  <footer id="footer">
     <div class="container">
-      <h2>Projects</h2>
-      <!-- Showcase samples of your work or projects -->
-      <div class="project">
-        <h3>Project Title 1</h3>
-        <img src="project1.jpg" alt="Project 1">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-      </div>
-      <div class="project">
-        <h3>Project Title 2</h3>
-        <img src="project2.jpg" alt="Project 2">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Resume Section -->
-  <section id="resume">
-    <div class="container">
-      
-      <h2>Resume</h2>
-      <p>My resume can be downloaded from here.<a href="C:\Users\anush\OneDrive\Documents\certificates\Anushka Tomar_A60205221247.pdf" target="_blank">Resume</a>.</p>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="container">
-      
-      <h2>Contact</h2>
-      <p>Email: anushkatomar013@gmail.com </p>
-      <p>Phone: +91-9301827512 </p>
-    </div>
-  </section>
-
-  <!-- Footer Section -->
-  <footer>
-    <div class="container">
-   
-      <p>&copy; 2023 Anushka Tomar. All rights reserved.</p>
-    </div>
-  </footer>
+      <p>&#169; 2023 All Rights Reserved</p>
+      <p>Made with Love</p>
+    </div> <!-- container -->
+  </footer> <!-- footer -->
 </body>
-
 </html>
