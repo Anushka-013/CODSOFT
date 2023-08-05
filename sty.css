@@ -333,6 +333,10 @@ section .title::after{
     transition: all 0.55s ease-in;
 }
 
+.resume{
+    text-align: center;
+}
+
 .resume .contact-text a {
     display: inline-block;
     background: #265679;
@@ -435,7 +439,6 @@ section .title::after{
         width: 300px;
         height: 40vh;
         background: #45708c;
-        
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -453,9 +456,9 @@ section .title::after{
         margin-left: 0;
         margin: 7px 0;
     }
+    
     .navlist.open{
         right:0;
-
     }
 }
 
