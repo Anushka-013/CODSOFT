@@ -20,6 +20,14 @@ header{
     background: transparent;
 }
 
+body{
+    background: linear-gradient(245.59deg, #b8cee0 0%, #5d9cbc 28.53%, #2eafd3 75.52%);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .logo{
     font-size: 30px;
     font-weight: 700;
@@ -49,7 +57,6 @@ header{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #b8cee0 0%, #5d9cbc 28.53%, #2eafd3 75.52%);
     position: relative;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -155,7 +162,6 @@ section{
 
 section{
     padding: 0 19%;
-    background: linear-gradient(245.59deg, #b8cee0 0%, #5d9cbc 28.53%, #2eafd3 75.52%);
 }
 
 section .title{
@@ -163,7 +169,6 @@ section .title{
     text-align: center;
     text-decoration: underline #28607c;
     text-decoration-style: solid;
-    
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
@@ -291,7 +296,6 @@ section .title::after{
     color: rgb(44, 22, 99);
 }
 .contact{
-    background: linear-gradient(245.59deg, #b8cee0 0%, #5d9cbc 28.53%, #2eafd3 75.52%);
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
     align-items: center;
