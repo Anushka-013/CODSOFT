@@ -7,6 +7,14 @@
     text-decoration: none;
 }
 
+body{
+    background: linear-gradient(245.59deg, #b8cee0 0%, #5d9cbc 28.53%, #2eafd3 75.52%);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 header{
     position: absolute;
     right:0;
@@ -18,14 +26,6 @@ header{
     justify-content: space-between;
     padding: 33px 9%;
     background: transparent;
-}
-
-body{
-    background: linear-gradient(245.59deg, #b8cee0 0%, #5d9cbc 28.53%, #2eafd3 75.52%);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .logo{
@@ -57,6 +57,7 @@ body{
     height: 100%;
     width: 100%;
     min-height: 100vh;
+
     position: relative;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -142,7 +143,7 @@ section{
     position: absolute;
     top: 50%;
     padding: 0 9%;
-    transform: translateY(-50%);
+    /*transform: translateY(-50%);*/
 }
 
 .icons i{
@@ -162,6 +163,8 @@ section{
 
 section{
     padding: 0 19%;
+   
+    background-size: cover;
 }
 
 section .title{
@@ -169,6 +172,7 @@ section .title{
     text-align: center;
     text-decoration: underline #28607c;
     text-decoration-style: solid;
+    
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
@@ -197,7 +201,6 @@ section .title::after{
 
 }
 
-
 .about .about-content{
     display: flex;
     flex-wrap: wrap;
@@ -213,6 +216,8 @@ section .title::after{
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
+    border: 1px solid rgb(12, 12, 12);
+    padding: 20px;
 
 }
 
@@ -296,6 +301,7 @@ section .title::after{
     color: rgb(44, 22, 99);
 }
 .contact{
+   
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
     align-items: center;
@@ -353,6 +359,7 @@ section .title::after{
     color: rgb(34, 19, 92);
     background:none;
 }
+
 @media (max-width: 1535px){
     header{
         padding: 15px 3%;
@@ -439,6 +446,7 @@ section .title::after{
         width: 300px;
         height: 40vh;
         background: #45708c;
+        
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -456,9 +464,9 @@ section .title::after{
         margin-left: 0;
         margin: 7px 0;
     }
-    
     .navlist.open{
         right:0;
+
     }
 }
 
